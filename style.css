@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 10px;
+}
+
+.main {
+  border: 4px solid black;
+  height: 950px;
+  width: 900px;
+  background-color: rgb(190, 136, 37);
+  /* display: flex; */
+}
+
+.sub {
+  display: flex;
+  background-color: rgb(158, 57, 13);
+}
+
+.logo img {
+  width: 40%;
+  padding-top: 10px;
+  /* display: flex; */
+  /* border: 2px solid white; */
+  border-radius: 30px;
+}
+
+.logo img:hover {
+  opacity: 0.5;
+}
+
+/* .tt{
+    display: flex;
+    padding-left: 50px;
+
+} */
+.tt p1 {
+  text-align: center;
+  font-family: "Brush Script MT", cursive;
+  font-size: 30px;
+  color: orange;
+}
+
+.tt p2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: large;
+  text-align: center;
+}
+
+.tbldata,
+th,
+td {
+  border: 1px solid;
+  width: 100%;
+  text-align: center;
+}
+
+th {
+  background-color: greenyellow;
+}
+
+.stuinfo {
+  text-align: center;
+}
+
+.stuinfo p1 {
+  font-style: italic;
+}
+
+.footer {
+  width: 33%;
+}
+
+.footer p {
+  text-align: start;
+}
+
+.footerlogo {
+  width: 33%;
+}
+
+.footerlogo img {
+  width: 33%;
+}
+
+.footersign {
+  width: 33%;
+}
+
+.footersign p1 {
+  font-family: "Segoe Script";
+}
